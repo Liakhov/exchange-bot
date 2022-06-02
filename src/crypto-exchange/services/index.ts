@@ -1,0 +1,1 @@
+export { CryptoExchangeService } from './crypto-exchange.service';
