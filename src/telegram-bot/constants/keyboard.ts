@@ -3,10 +3,17 @@ export const KEYBOARD = {
         keyboard: [
             [
                 {
-                    text: `💸 Crypto exchange rates`
+                    text: `💰 Курс криптовалют`,
+
+                }
+            ],
+            [
+                {
+                    text: `💵 Курс долара`
                 }
             ]
         ],
-        one_time_keyboard: false
+        one_time_keyboard: false,
+        resize_keyboard: true
     }
 };
