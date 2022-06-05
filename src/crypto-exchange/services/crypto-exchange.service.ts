@@ -32,8 +32,8 @@ export class CryptoExchangeService {
             return acc;
         }, []);
 
-        return result.reduce((acc: string, value) => {
-            return acc += `${value.asset_id_quote}/${asset_id_base}: ${value.rate} \n`;
+        return result.reduce((exchanges: string, value) => {
+            return exchanges += `${value.asset_id_quote}/${asset_id_base}: ${value.rate} \n`;
         }, 'Курс валют: \n');
     }
 }

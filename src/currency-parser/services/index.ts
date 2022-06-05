@@ -1,0 +1,1 @@
+export { CurrencyParserService } from './currency-parcer.service';

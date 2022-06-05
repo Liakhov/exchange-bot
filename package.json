@@ -28,6 +28,8 @@
     "@nestjs/schedule": "^2.0.1",
     "@types/cron": "^2.0.0",
     "@types/node-telegram-bot-api": "^0.57.1",
+    "jsdom": "^19.0.0",
+    "node-libcurl": "^2.3.4",
     "node-telegram-bot-api": "^0.57.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
